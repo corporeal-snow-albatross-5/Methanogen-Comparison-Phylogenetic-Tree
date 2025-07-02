@@ -3,7 +3,7 @@ Code on how to make a neighbor-joining tree with GToTree using bit to automatica
 
 This pipeline uses conda installs for all of the bioinformatic programs. For information on how to set up conda on your local computer see here: https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python
 
-## Step 1. Grab the NSHQ4/Methanobacterium/Methanocalculus natronophilus genomes off of the google drive (They are uploaded to this repo for easy access)
+## Step 1. Grab the NSHQ4/Methanobacterium/Lost City MAGS/Methanocalculus natronophilus genomes off of the google drive (They are uploaded to this repo for easy access under "methanogen_MAGs.zip")
 ```
 NSHQ14B.bins.3.fasta
 NSHQ14B.bins.4.fasta
