@@ -4,6 +4,7 @@ Code on how to make a neighbor-joining tree with GToTree using bit to automatica
 This pipeline uses conda installs for all of the bioinformatic programs. For information on how to set up conda on your local computer see here: https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python
 
 ## Step 1. Grab the NSHQ4/Methanobacterium/Lost City MAGS/Methanocalculus natronophilus genomes off of the google drive (They are uploaded to this repo for easy access under "methanogen_MAGs.zip")
+#### Note: This does not include all of the _Methanobacterium_ genomes that Lilja used. I got the rest of those using bit (see below)
 ```
 NSHQ14B.bins.3.fasta
 NSHQ14B.bins.4.fasta
@@ -11,8 +12,27 @@ bin.009_Methanobacterium.fasta_assembly.fa
 bin.019_Methanobacterium.fasta_assembly.fa
 Methanosarcinaceae_JAAXQB01.fasta_assembly.fa
 Mnat_SPAdes.Assembly.fa
+Methanobacteriaceae_archaeon_OMB002.fna
+Methanobacteriaceae_archaeon_OMB007.fna
+Methanobacterium_aggregans_5_bin_148.fna
+Methanobacterium_articum_strain_M2.fna
+Methanobacterium_bryantii strain_MoH..fna
+Methanobacterium_formicicum_Mb9.fna
+Methanobacterium_formicicum_strain_DSM_1535.fna
+Methanobacterium_sp_ERen5.fna
+Methanobacterium_sp_IBPM_KMB_004.fna
+Methanobacterium_sp_OMB001.fna
+Methanobacterium_sp_OMB003.fna
+Methanobacterium_sp_OMB004.fna
+Methanobacterium_sp_OMB005.fna
+Methanobacterium_sp_OMB006.fna
+Methanobacterium_sp_strain_34x.fna
+Methanobacterium_spitsbergense_VT.fna
+Methanobacterium_veterum_MK4.fna
+Lost_city_Methanocellales.fna
+Lost_city_Methanosarcaceae.fna
 ```
-## Step 2. Grab additional genomes in bulk off of GTDB using bit
+## Step 2. Grab additional genomes in bulk off of GTDB using bit (bioinformatics tools)
 ### bit documentation: https://github.com/AstrobioMike/bit
 ```
 # Access genomes from gtdb 
